@@ -10,7 +10,7 @@ import connexion
 
 
 #from pack1.clasify import ImgClassifier
-from clasify import ImgClassifier
+#from clasify import ImgClassifier
 
 # Create the application instance
 app = Flask(__name__)
@@ -58,4 +58,5 @@ def upload():
 # If we're running in stand alone mode, run the application
 if __name__ == '__main__':
     # app.run(debug=True)
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run()
+    # app.run(host='0.0.0.0', port=5000, debug=True)
