@@ -8,8 +8,8 @@ from flask import (
 
 import connexion
 
-
-from clasify import ImgClassifier
+from pack1.clasify import ImgClassifier
+#from clasify import ImgClassifier
 
 # Create the application instance
 app = Flask(__name__)
@@ -46,9 +46,9 @@ def upload():
 
 	file.save(filename)
 	print(filename)
-	resultClassification = ImgClassifier.classify_img(filename, ImgClassifier.path_model, ImgClassifier.path_pickle)
+	#resultClassification = ImgClassifier.classify_img(filename, ImgClassifier.path_model, ImgClassifier.path_pickle)
 
-	print(resultClassification)
+	#print(resultClassification)
 	
 	print("done");
 
