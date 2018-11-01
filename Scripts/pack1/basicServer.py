@@ -9,7 +9,7 @@ from flask import (
 import connexion
 
 #from pack1.clasify import ImgClassifier
-#from clasify import ImgClassifier
+from clasify import ImgClassifier
 
 # Create the application instance
 app = Flask(__name__)

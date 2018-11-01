@@ -72,7 +72,7 @@ class ImgClassifier:
 def main():
     print("main")
 
-main()
+#main()
 #path_img2 = "C:\\Users\\Alexandru\\Desktop\\validation\\banana\\img3.jpg"
 
 #rez = path_img2
