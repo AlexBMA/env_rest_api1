@@ -22,7 +22,7 @@ Keras-Preprocessing==1.0.5
 Markdown==3.0.1
 MarkupSafe==1.0
 numpy==1.15.3
-opencv-python==3.4.1.15
+opencv-python==3.4.7.28
 protobuf==3.6.1
 PyYAML==3.13
 requests==2.20.0
